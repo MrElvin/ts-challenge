@@ -21,6 +21,7 @@
 ## Medium
 
 - [return type](./medium/2-return-type.ts)
+- [omit](./medium/3-omit.ts)
 
 ## Hard
 

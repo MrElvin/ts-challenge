@@ -9,3 +9,7 @@
 [exclude](./easy/43-exclude.ts) 中利用条件类型的分配率来排除部分类型. `type MyExclude<T, U> = T extends U ? never : T;` 举个例子: `MyExclude<'a' | 'b' | 'c', 'a' | 'b'>` 这时会把 `T` 拆成: `'a', 'b', 'c'`. 其中前两个都返回了 `never` 被排除, 最后的 `c` 被保留.
 
 具体的语法见[官方文档](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types)
+
+3. 通过 as 来给 key 取别名
+
+[omit](./medium/3-omit.ts) 中利用 [key remapping via as](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as) 来将对象中不满足要求的键名转换为 `never` 类型, 以达到过滤的目的.
