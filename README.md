@@ -29,6 +29,9 @@
 - [tuple to union](./medium/10-tuple-to-union.ts)
 - [chainable-options *](./medium/12-chainable-options.ts)
 - [last](./medium/15-last.ts)
+- [pop](./medium/16-pop.ts)
+- [promise all *](./medium/20-promise-all.ts)
+- [type lookup](./medium/62-type-lookup.ts)
 
 ## Hard
 
