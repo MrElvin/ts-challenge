@@ -13,3 +13,7 @@
 3. 通过 as 来给 key 取别名
 
 [omit](./medium/3-omit.ts) 中利用 [key remapping via as](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as) 来将对象中不满足要求的键名转换为 `never` 类型, 以达到过滤的目的.
+
+4. 泛型的默认值
+
+[readonly 2](./medium/8-readonly2.ts) 中利用 `<T, K extends keyof T = keyof T>` 给泛型参数 `K` 赋予默认值.

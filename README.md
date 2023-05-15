@@ -24,6 +24,10 @@
 
 - [return type](./medium/2-return-type.ts)
 - [omit *](./medium/3-omit.ts)
+- [readonly 2](./medium/8-readonly2.ts)
+- [deep readonly](./medium/9-deep-readonly.ts)
+- [tuple to union](./medium/10-tuple-to-union.ts)
+- [chainable-options *](./medium/12-chainable-options.ts)
 
 ## Hard
 
