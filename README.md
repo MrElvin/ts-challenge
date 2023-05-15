@@ -28,6 +28,7 @@
 - [deep readonly](./medium/9-deep-readonly.ts)
 - [tuple to union](./medium/10-tuple-to-union.ts)
 - [chainable-options *](./medium/12-chainable-options.ts)
+- [last](./medium/15-last.ts)
 
 ## Hard
 

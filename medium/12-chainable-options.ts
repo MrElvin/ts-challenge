@@ -39,9 +39,11 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Chainable<T> = {
-    option(key: string, value: any): any
-    get(): T
+type Chainable<T = {}> = {
+    // key 用泛型约束, 不能重复. 返回值由于 & 不能覆盖同名属性类型, 所以要先 Omit 一下.
+    // 题解: https://github.com/type-challenges/type-challenges/issues/13951
+    option: <K extends string, V>(key: K extends keyof T ? never : K, value: V) => Chainable<Omit<T, K> & Record<K, V>>;
+    get: () => T;
 }
 
 /* _____________ 测试用例 _____________ */
