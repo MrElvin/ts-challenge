@@ -32,6 +32,12 @@
 - [pop](./medium/16-pop.ts)
 - [promise all *](./medium/20-promise-all.ts)
 - [type lookup](./medium/62-type-lookup.ts)
+- [trim left](./medium/106-trim-left.ts)
+- [trim *](./medium/107-trim.ts)
+- [capitalize](./medium/110-capitalize.ts)
+- [replace](./medium/116-replace.ts)
+- [replace all](./medium/119-replace-all.ts)
+- [append argument](./medium/191-append-argument.ts)
 
 ## Hard
 

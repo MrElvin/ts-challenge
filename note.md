@@ -17,3 +17,7 @@
 4. 泛型的默认值
 
 [readonly 2](./medium/8-readonly2.ts) 中利用 `<T, K extends keyof T = keyof T>` 给泛型参数 `K` 赋予默认值.
+
+5. 字面量类型的技巧
+
+[trim left](./medium/106-trim-left.ts) 中利用字面量和类型推导, 完成了 trimLeft 效果.
