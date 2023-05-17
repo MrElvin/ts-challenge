@@ -38,6 +38,15 @@
 - [replace](./medium/116-replace.ts)
 - [replace all](./medium/119-replace-all.ts)
 - [append argument](./medium/191-append-argument.ts)
+- [permutation *](./medium/296-permutation.ts)
+- [length of string](./medium/298-length-of-string.ts)
+- [flatten](./medium/459-flatten.ts)
+- [append to object *](./medium/527-append-to-object.ts)
+- [absolute *](./medium/529-absolute.ts)
+- [string to union](./medium/531-string-to-union.ts)
+- [merge](./medium/599-merge.ts)
+- [kebabcase](./medium/612-kebabcase.ts)
+- [diff](./medium/645-diff.ts)
 
 ## Hard
 
