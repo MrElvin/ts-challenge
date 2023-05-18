@@ -48,8 +48,24 @@
 type Absolute<T extends number | string | bigint> = `${T}` extends `-${infer U}` ? U : `${T}`
 ```
 
+### [percentage parser](./medium/1978-percentage-parser.ts)
+
+字面量类型使用了 `${infer L}${infer R}` 的时候, `L` 只表示第一个字符, `R` 表示剩余字符.
+
 ## & 与 | 的区别
 
 ### [diff](./medium/645-diff.ts)
 
 利用 & 与 | 的区别可以更加优雅地实现 diff 方法.
+
+## T extends string 和 string extends T 的区别
+
+### [remove index signature](./medium/1367-remove-index-signature.ts)
+
+利用 T extends string 和 string extends T 的区别完成功能.
+
+## 定义一个空对象类型
+
+### [anyof](./medium/949-anyof.ts)
+
+利用 `{[key: PropertyKey]: never}` 或 `Record<PropertyKey, never>` 定义了一个空对象类型, 即 `{}`.

@@ -47,6 +47,12 @@
 - [merge](./medium/599-merge.ts)
 - [kebabcase](./medium/612-kebabcase.ts)
 - [diff](./medium/645-diff.ts)
+- [anyof *](./medium/949-anyof.ts)
+- [isnever](./medium/1042-isnever.ts)
+- [isunion *](./medium/1097-isunion.ts)
+- [replacekeys](./medium/1130-replacekeys.ts)
+- [remove index signature *](./medium/1367-remove-index-signature.ts)
+- [percentage parser](./medium/1978-percentage-parser.ts)
 
 ## Hard
 
