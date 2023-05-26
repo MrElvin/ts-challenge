@@ -52,6 +52,10 @@ type Absolute<T extends number | string | bigint> = `${T}` extends `-${infer U}`
 
 字面量类型使用了 `${infer L}${infer R}` 的时候, `L` 只表示第一个字符, `R` 表示剩余字符.
 
+### [startsWith](./medium/2688-startswith.ts)
+
+字面量类型使用 `${U}${infer Rest}`  的时候, `U` 表示确定的匹配的那个字符串 (待匹配的前缀), `Rest` 表示剩余的字符.
+
 ## & 与 | 的区别
 
 ### [diff](./medium/645-diff.ts)
@@ -69,3 +73,10 @@ type Absolute<T extends number | string | bigint> = `${T}` extends `-${infer U}`
 ### [anyof](./medium/949-anyof.ts)
 
 利用 `{[key: PropertyKey]: never}` 或 `Record<PropertyKey, never>` 定义了一个空对象类型, 即 `{}`.
+
+## 利用 Omit 整合联合或交叉类型
+
+### [required by keys] 和 [partial by keys]
+
+利用 `Omit<T & U, never>` 的形式整合类型输出. `Omit<T & U, never>` 会创建一个单一类型, 等价于交叉类型 `T & U` 的表示.
+类似, 也可以使用 `Omit<T, never>` 来拷贝一份 `T` 类型.

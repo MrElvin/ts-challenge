@@ -53,6 +53,14 @@
 - [replacekeys](./medium/1130-replacekeys.ts)
 - [remove index signature *](./medium/1367-remove-index-signature.ts)
 - [percentage parser](./medium/1978-percentage-parser.ts)
+- [drop char](./medium/2070-drop-char.ts)
+- [minusone](./medium/2257-minusone.ts)
+- [pick by type](./medium/2595-pick-by-type.ts)
+- [startswith](./medium/2688-startswith.ts)
+- [endswith](./medium/2693-endswith.ts)
+- [partial by keys](./medium/2757-partial-by-keys.ts)
+- [required by keys](./medium/2759-required-by-keys.ts)
+- [mutable](./medium/2793-mutable.ts)
 
 ## Hard
 
