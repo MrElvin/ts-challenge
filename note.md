@@ -1,20 +1,6 @@
 # 技巧记录
 
-[TOC]
-
-## T[number]
-
-### [tuple-to-object](./easy/11-tuple-to-object.ts)
-
-利用 `T[number]` 这个方式获取数组中每一项的值. 具体的语法见[官方文档](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)
-
 ## 分布式条件类型
-
-具体的语法见[官方文档](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types)
-
-### [exclude](./easy/43-exclude.ts)
-
-利用条件类型的分配率来排除部分类型. `type MyExclude<T, U> = T extends U ? never : T;` 举个例子: `MyExclude<'a' | 'b' | 'c', 'a' | 'b'>` 这时会把 `T` 拆成: `'a', 'b', 'c'`. 其中前两个都返回了 `never` 被排除, 最后的 `c` 被保留.
 
 ### [permutation](./medium/296-permutation.ts)
 
