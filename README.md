@@ -60,6 +60,15 @@
 - [partial by keys](./medium/2757-partial-by-keys.ts)
 - [required by keys](./medium/2759-required-by-keys.ts)
 - [mutable](./medium/2793-mutable.ts)
+- [omit by type](./medium/2852-omit-by-type.ts)
+- [object entries *](./medium/2946-object-entries.ts)
+- [tuple to nested object *](./medium/3188-tuple-to-nested-object.ts)
+- [reverse](./medium/3192-reverse.ts)
+- [flip arguments](./medium/3196-flip-arguments.ts)
+- [flatten depth *](./medium/3243-flatten-depth.ts)
+- [bem style string](./medium/3326-bem-style-string.ts)
+- [inorder traversal](./medium/3376-inorder-traversal.ts)
+- [flip](./medium/4179-flip.ts)
 
 ## Hard
 

@@ -16,6 +16,10 @@
 
 /* _____________ 你的代码 _____________ */
 
+type Util<a> = a extends any ? true : false;
+type b = Util<unknown>
+
+// [解答] https://juejin.cn/post/7165170011282079751#heading-15
 type Permutation<ALL, ITEM = ALL> =
     [ALL] extends [never]
         ? []

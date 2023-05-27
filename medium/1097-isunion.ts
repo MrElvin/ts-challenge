@@ -20,7 +20,12 @@
 
 /* _____________ Your Code Here _____________ */
 
-type IsUnion<T> = any
+// [解答] https://github.com/type-challenges/type-challenges/issues/1140
+type IsUnion<T, All = T> = (
+    T extends T
+        ? All extends T ? true : false
+        : never
+) extends true ? false : true;
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
