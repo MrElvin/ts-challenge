@@ -73,6 +73,17 @@
 | [bem style string](./medium/3326-bem-style-string.ts)               |   -   |
 | [inorder traversal](./medium/3376-inorder-traversal.ts)             |   -   |
 | [flip](./medium/4179-flip.ts)                                       |   -   |
+| [fibonacci sequence *](./medium/4182-fibonacci-sequence.ts)         |   -   |
+| [all combinations](./medium/4260-all-combinations.ts)               |   -   |
+| [greater than](./medium/4425-greater-than.ts)                       |   -   |
+| [zip](./medium/4471-zip.ts)                                         |   -   |
+| [istuple *](./medium/4484-istuple.ts)                               |   -   |
+| [chunk](./medium/4499-chunk.ts)                                     |   -   |
+| [fill](./medium/4518-fill.ts)                                       |   -   |
+| [trim right](./medium/4803-trim-right.ts)                           |   -   |
+| [without](./medium/5117-without.ts)                                 |   -   |
+| [trunc](./medium/5140-trunc.ts)                                     |   -   |
+| [indexof](./medium/5153-indexof.ts)                                 |   -   |
 
 ## Hard
 
