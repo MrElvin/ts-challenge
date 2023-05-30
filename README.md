@@ -84,6 +84,16 @@
 | [without](./medium/5117-without.ts)                                 |   -   |
 | [trunc](./medium/5140-trunc.ts)                                     |   -   |
 | [indexof](./medium/5153-indexof.ts)                                 |   -   |
+| [join](./medium/5310-join.ts)                                       |   -   |
+| [last indexof](./medium/5317-lastindexof.ts)                        |   -   |
+| [unique](./medium/5360-unique.ts)                                   |   -   |
+| [map types](./medium/5821-maptypes.ts)                              |   -   |
+| [consturct tuple](./medium/7544-construct-tuple.ts)                 |   -   |
+| [number range](./medium/8640-number-range.ts)                       |   -   |
+| [combination](./medium/8767-combination.ts)                         |   -   |
+| [subsequence](./medium/8987-subsequence.ts)                         |   -   |
+| [check repeated chars](./medium/9142-check-repeated-chars.ts)       |   -   |
+
 
 ## Hard
 
