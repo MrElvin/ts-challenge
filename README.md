@@ -105,8 +105,6 @@
 | [replace first](./medium/25170-replace-first.ts)                         |   -   |
 | [transpose](./medium/25270-transpose.ts)                                 |   -   |
 | [json schema to typescript](./medium/26401-json-schema-to-typescript.ts) |   -   |
-| [square](./medium/27133-square.ts)                                       |   -   |
-
 
 ## Hard
 
