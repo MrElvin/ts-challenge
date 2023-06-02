@@ -90,8 +90,8 @@
 | [map types](./medium/5821-maptypes.ts)                                   |   -   |
 | [consturct tuple](./medium/7544-construct-tuple.ts)                      |   -   |
 | [number range](./medium/8640-number-range.ts)                            |   -   |
-| [combination](./medium/8767-combination.ts)                              |   -   |
-| [subsequence](./medium/8987-subsequence.ts)                              |   -   |
+| [combination *](./medium/8767-combination.ts)                            |   -   |
+| [subsequence *](./medium/8987-subsequence.ts)                            |   -   |
 | [check repeated chars](./medium/9142-check-repeated-chars.ts)            |   -   |
 | [first unique char index](./medium/9286-first-unique-char-index.ts)      |   -   |
 | [get middle element *](./medium/9896-get-middle-element.ts)              |   -   |
