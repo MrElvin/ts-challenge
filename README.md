@@ -93,9 +93,9 @@
 | [combination *](./medium/8767-combination.ts)                            |   -   |
 | [subsequence *](./medium/8987-subsequence.ts)                            |   -   |
 | [check repeated chars](./medium/9142-check-repeated-chars.ts)            |   -   |
-| [first unique char index](./medium/9286-first-unique-char-index.ts)      |   -   |
+| [first unique char index*](./medium/9286-first-unique-char-index.ts)      |   -   |
 | [get middle element *](./medium/9896-get-middle-element.ts)              |   -   |
-| [find only appear once](./medium/9898-find-only-appear-once.ts)          |   -   |
+| [find only appear once*](./medium/9898-find-only-appear-once.ts)          |   -   |
 | [integer](./medium/10969-integer.ts)                                     |   -   |
 | [to primitive](./medium/16259-to-primitive.ts)                           |   -   |
 | [deep mutable](./medium/17973-deep-mutable.ts)                           |   -   |
@@ -103,8 +103,8 @@
 | [filter](./medium/18220-filter.ts)                                       |   -   |
 | [combination key type](./medium/21106-combination-key-type.ts)           |   -   |
 | [replace first](./medium/25170-replace-first.ts)                         |   -   |
-| [transpose](./medium/25270-transpose.ts)                                 |   -   |
-| [json schema to typescript](./medium/26401-json-schema-to-typescript.ts) |   -   |
+| [transpose *](./medium/25270-transpose.ts)                                 |   -   |
+| [json schema to typescript *](./medium/26401-json-schema-to-typescript.ts) |   -   |
 
 ## Hard
 
